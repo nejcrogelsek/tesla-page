@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const ReusableButton = () => {
-    return (
-        <div className="button">
-            
-        </div>
-    )
-}
+const ReusableButton = ({ imp, text, link }) => {
+  return (
+    <div className={`button ${imp === "secondary" ? "button__white" : ""}`}>
+      <a href={link}>{text}</a>
+    </div>
+  );
+};
 
-export default ReusableButton
+export default ReusableButton;
