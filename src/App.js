@@ -25,7 +25,7 @@ const App = () => {
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
-          twoButtons='true'
+          twoButtons={true}
           first
         />
         <ReusableSection
@@ -37,7 +37,7 @@ const App = () => {
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
-          twoButtons='true'
+          twoButtons={true}
           first
         />
         <ReusableSection
@@ -49,7 +49,7 @@ const App = () => {
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
-          twoButtons='true'
+          twoButtons={true}
         />
         <ReusableSection
           title='Model X'
@@ -60,7 +60,7 @@ const App = () => {
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
-          twoButtons='true'
+          twoButtons={true}
         />
         <ReusableSection
           title='Model Y'
@@ -71,7 +71,7 @@ const App = () => {
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
-          twoButtons='true'
+          twoButtons={true}
         />
         <ReusableSection
           title='Solar for New Roofs'

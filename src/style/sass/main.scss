@@ -2,3 +2,9 @@
 @import "./header";
 @import "./item";
 @import "./buttons";
+
+.app__reusableSections {
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
+}
