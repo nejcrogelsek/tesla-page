@@ -1,7 +1,8 @@
 /* Fonts */
-@font-face{
+@font-face {
   font-family: "iCielMedium";
-  src: local("iCielMedium"),url("../../fonts/iCiel-Medium.ttf") format("truetype");
+  src: local("iCielMedium"),
+    url("../../fonts/iCiel-Medium.ttf") format("truetype");
   font-weight: normal;
 }
 
@@ -30,14 +31,6 @@ body {
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Lato", sans-serif;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

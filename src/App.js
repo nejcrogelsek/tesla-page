@@ -30,7 +30,7 @@ const App = () => {
         />
         <ReusableSection
           title='Model S'
-          desc='$69,420'
+          desc='Money-back guarantee'
           descLink=''
           backgroundImg={ModelS}
           leftBtnTxt='CUSTOM ORDER'
@@ -38,7 +38,6 @@ const App = () => {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons={true}
-          first
         />
         <ReusableSection
           title='Model 3'

@@ -1,6 +1,6 @@
 .item {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@
   font-weight: 200;
   font-size: 14px;
 }
-.item_lowerThird {
+.item__lowerThird {
   margin-bottom: 5%;
   display: flex;
   flex-direction: column;
